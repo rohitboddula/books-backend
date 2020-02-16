@@ -11,7 +11,7 @@ const MONGO_CONNECTION = "mongodb://localhost:27018/books";
 const userRoutes = require("./routes/userRoutes");
 
 app.get("/", (req, res) => {
-  res.send("<h1>Get Books Server1</h1>");
+  res.send("<h1>Get Books Server</h1>");
 });
 
 //middleware
