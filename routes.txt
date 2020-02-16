@@ -1,0 +1,33 @@
+TO-DO
+Add role to user model
+
+USER
+
+    NORMAL
+
+    ADMIN
+
+    COMMON
+        /sign-up
+        /login
+        /update-profile/:id
+BOOKS
+    NORMAL
+        /books      -> Get All Books
+        /books/:id  -> Get Books by ID
+        /books&query  => Get Book
+    ADMIN
+        /books/update/:id => Update Book
+        /books/add        => Add Book
+    COMMON
+
+ORDER
+    COMMON
+        /add-to-cart
+        /orders/user/:id  => Get Orders by User ID
+SUPPLIER
+    ADMIN
+        
+
+
+Reac.JS------------------------------
