@@ -1,7 +1,6 @@
 {
   "name": "getbooks-backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,12 +9,27 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^3.0.8",
+    "babel-cli": "^6.26.0",
+    "bcrypt": "^4.0.1",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^5.8.11",
+    "mongoose": "^5.9.3",
     "morgan": "^1.9.1",
+    "node": "^13.9.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
     "nodemon": "^2.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohitboddula/books-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rohitboddula/books-backend/issues"
+  },
+  "homepage": "https://github.com/rohitboddula/books-backend#readme",
+  "description": ""
 }

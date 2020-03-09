@@ -1,25 +1,25 @@
 TO-DO
 Add role to user model
 
-USER
-
+USER    
     NORMAL
 
     ADMIN
 
-    COMMON
+    COMMON (Completed)
         /sign-up
         /login
         /update-profile/:id
+        
 BOOKS
     NORMAL
         /books      -> Get All Books
         /books/:id  -> Get Books by ID
         /books&query  => Get Book
     ADMIN
-        /books/update/:id => Update Book
+        /books/update/:id => Update Book    
         /books/add        => Add Book
-    COMMON
+    COMMON      
 
 ORDER
     COMMON
