@@ -10,6 +10,7 @@ const MONGO_CONNECTION = "mongodb://localhost:27018/books";
 //routes
 const userRoutes = require("./routes/userRoutes");
 const bookRoutes = require("./routes/bookRoutes");
+const orderRoutes = require("./routes/orderRoutes");
 
 app.get("/", (req, res) => {
   res.send("<h1>Get Books Server</h1>");
@@ -21,8 +22,9 @@ app.use(morgan("dev"));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-app.use("/user", userRoutes);
+app.use("/user", userRoutes); 
 app.use("/book", bookRoutes);
+app.use("/order", orderRoutes);
 
 const PORT = 3001;
 

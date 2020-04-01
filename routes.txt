@@ -14,7 +14,7 @@ USER
 BOOKS
     NORMAL
         /books      -> Get All Books
-        /books/:id  -> Get Books by ID
+        /books/:id  -> Get Books by ID 
         /books&query  => Get Book
     ADMIN
         /books/update/:id => Update Book    
